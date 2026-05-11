@@ -1,0 +1,156 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero tech-grid-bg">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge">Trusted Wearable Reviews</div>
+      <h1 class="hero-title">
+        Track <span class="accent">Smarter.</span><br>
+        Choose <span class="accent-blue">Better.</span>
+      </h1>
+      <p class="hero-desc">In-depth reviews, head-to-head comparisons and expert buying guides for fitness trackers, smartwatches and wearable tech.</p>
+      <div class="hero-actions">
+        <a href="/categories/reviews/" class="btn btn-primary">Browse Reviews →</a>
+        <a href="/categories/guides/" class="btn btn-outline">Buying Guides</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-number">50+</span><span class="stat-label">Reviews</span></div>
+        <div class="stat-item"><span class="stat-number">100%</span><span class="stat-label">Independent</span></div>
+        <div class="stat-item"><span class="stat-number">Expert</span><span class="stat-label">Analysis</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-device-card">
+        <div class="hero-device-header">
+          <div class="device-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3"/><rect x="8" y="5" width="8" height="6" rx="1"/><circle cx="12" cy="17" r="1.5"/></svg>
+          </div>
+          <div><div class="device-name">Fitness Tracker Pro</div><div class="device-brand">Editor's Pick 2025</div></div>
+        </div>
+        <div class="device-rating">
+          <span class="rating-score">9.4</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <div class="device-specs">
+          <div class="spec-item"><div class="spec-label">Battery</div><div class="spec-value">14 Days</div></div>
+          <div class="spec-item"><div class="spec-label">Water Res.</div><div class="spec-value">5 ATM</div></div>
+          <div class="spec-item"><div class="spec-label">GPS</div><div class="spec-value">Built-in</div></div>
+          <div class="spec-item"><div class="spec-label">Heart Rate</div><div class="spec-value">24/7</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section">
+  <div class="container--wide">
+    <div class="section-header">
+      <span class="section-label">Explore</span>
+      <h2 class="section-title">Browse by Category</h2>
+      <p class="section-subtitle">Find exactly what you're looking for — from in-depth reviews to head-to-head comparisons.</p>
+    </div>
+    <div class="categories-grid">
+      <a href="/categories/reviews/" class="category-card">
+        <div class="category-icon category-icon--teal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div class="category-title">Reviews</div>
+        <p class="category-desc">Thorough, hands-on reviews covering every feature that matters — battery life, accuracy, comfort and value.</p>
+        <div class="category-count">Full Reviews →</div>
+      </a>
+      <a href="/categories/best-picks/" class="category-card">
+        <div class="category-icon category-icon--blue">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        </div>
+        <div class="category-title">Best Picks</div>
+        <p class="category-desc">Curated lists of the best wearables for runners, swimmers, sleep tracking, budget shoppers and more.</p>
+        <div class="category-count" style="color:var(--color-blue)">Top Lists →</div>
+      </a>
+      <a href="/categories/guides/" class="category-card">
+        <div class="category-icon category-icon--purple">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <div class="category-title">Buying Guides</div>
+        <p class="category-desc">Not sure where to start? Our guides break down exactly what to look for before you buy.</p>
+        <div class="category-count" style="color:#a78bfa">Read Guides →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- LATEST POSTS -->
+<section class="section section-alt tech-grid-bg">
+  <div class="container--wide">
+    <div class="section-header">
+      <span class="section-label">Latest</span>
+      <h2 class="section-title">Recent Articles</h2>
+      <p class="section-subtitle">Fresh reviews and guides, updated regularly.</p>
+    </div>
+
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ if $posts }}
+      {{ $featured := index $posts 0 }}
+      {{ $rest := after 1 $posts | first 6 }}
+
+      <!-- Featured post -->
+      <div class="featured-banner" style="margin-bottom:var(--space-10)">
+        <div>
+          <span class="featured-tag">Featured Article</span>
+          <h3 class="featured-title">{{ $featured.Title }}</h3>
+          <p class="featured-excerpt">{{ $featured.Summary | truncate 180 }}</p>
+          <a href="{{ $featured.RelPermalink }}" class="btn btn-primary">Read Article →</a>
+        </div>
+        <div class="featured-image">
+          {{ if $featured.Params.image }}
+            <img src="{{ $featured.Params.image }}" alt="{{ $featured.Title }}" width="600" height="450" loading="lazy">
+          {{ else }}
+            <img src="https://picsum.photos/seed/{{ $featured.Title | urlize }}/600/450" alt="{{ $featured.Title }}" width="600" height="450" loading="lazy">
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Post grid -->
+      {{ if $rest }}
+      <div class="posts-grid">
+        {{ range $rest }}
+        <article class="post-card">
+          <div class="post-card-image">
+            {{ if .Params.image }}
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" width="400" height="225" loading="lazy">
+            {{ else }}
+              <img src="https://picsum.photos/seed/{{ .Title | urlize }}/400/225" alt="{{ .Title }}" width="400" height="225" loading="lazy">
+            {{ end }}
+          </div>
+          <div class="post-card-body">
+            {{ with .Params.categories }}<span class="post-category-badge">{{ index . 0 }}</span>{{ end }}
+            <h3 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="post-card-excerpt">{{ .Summary | truncate 120 }}</p>
+            <div class="post-card-meta">
+              <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+              <a href="{{ .RelPermalink }}" class="read-more">Read more <span>→</span></a>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      {{ end }}
+
+    {{ else }}
+      <div class="empty-posts">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin:0 auto var(--space-4);color:var(--color-text-faint)"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
+        <h3>Articles coming soon</h3>
+        <p style="margin-top:var(--space-2)">The first reviews and guides are on their way.</p>
+      </div>
+    {{ end }}
+
+    {{ if gt (len (where .Site.RegularPages "Section" "posts")) 7 }}
+    <div style="text-align:center;margin-top:var(--space-12)">
+      <a href="/posts/" class="btn btn-outline">View All Articles →</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

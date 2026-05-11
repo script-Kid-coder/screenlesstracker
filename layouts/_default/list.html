@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="page-hero">
+  <div class="container">
+    <span class="section-label">{{ .Title }}</span>
+    <h1 class="page-title">{{ if .IsHome }}All Articles{{ else }}{{ .Title }}{{ end }}</h1>
+  </div>
+</div>
+<section class="section">
+  <div class="container--wide">
+    {{ if .Pages }}
+    <div class="posts-grid">
+      {{ range .Pages }}
+      <article class="post-card">
+        <div class="post-card-image">
+          {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" width="400" height="225" loading="lazy">
+          {{ else }}
+            <img src="https://picsum.photos/seed/{{ .Title | urlize }}/400/225" alt="{{ .Title }}" width="400" height="225" loading="lazy">
+          {{ end }}
+        </div>
+        <div class="post-card-body">
+          {{ with .Params.categories }}<span class="post-category-badge">{{ index . 0 }}</span>{{ end }}
+          <h2 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p class="post-card-excerpt">{{ .Summary | truncate 120 }}</p>
+          <div class="post-card-meta">
+            <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+            <a href="{{ .RelPermalink }}" class="read-more">Read more <span>→</span></a>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="empty-posts">
+      <p>No articles yet — check back soon!</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
