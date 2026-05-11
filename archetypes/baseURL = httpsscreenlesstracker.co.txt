@@ -1,0 +1,9 @@
+baseURL = "https://screenlesstracker.com/"
+languageCode = "en-us"
+title = "Screenless Tracker"
+theme = "PaperMod"
+
+[params]
+  description = "Reviews and guides for screenless wearable trackers"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
