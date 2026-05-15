@@ -10,15 +10,7 @@ ShowToc: false
 
 
 
-\## Hi, I'm Finn Franklin
-
-
-
-\*\*Wearable Tech Enthusiast · Runner · HYROX Competitor\*\*
-
-
-
-I'm a technology enthusiast from the UK with a genuine obsession for wearable tech and what it can do for your health, performance, and everyday life. I've spent the last several years testing, reviewing, and comparing over 50 fitness trackers, smartwatches, and screenless wearables across every price point — and ScreenlessTracker is where I share everything I've learned.
+Hi, I'm Finn Franklin — a technology enthusiast from the UK with a genuine obsession for wearable tech and what it can do for your health, performance, and everyday life. I've spent the last several years testing, reviewing, and comparing over 50 fitness trackers, smartwatches, and screenless wearables across every price point, and ScreenlessTracker is where I share everything I've learned.
 
 
 
@@ -34,39 +26,7 @@ My goal with ScreenlessTracker is simple: cut through the clutter and give you h
 
 
 
-\---
-
-
-
-\## Our Mission
-
-
-
-ScreenlessTracker exists to cut through the noise in the wearable tech market. There are hundreds of fitness trackers and smartwatches out there — we help you find the right one for your lifestyle and budget.
-
-
-
-\## What We Do
-
-
-
-We research, test and review wearable technology with a focus on:
-
-
-
-\- \*\*Fitness trackers\*\* — step counters, heart rate monitors, sleep trackers
-
-\- \*\*Smartwatches\*\* — GPS watches, sport watches, hybrid watches
-
-\- \*\*Specialist wearables\*\* — running watches, swimming trackers, health monitors
-
-
-
-Every article is written to answer one question: is this device actually worth your money?
-
-
-
-\## How We Review
+ScreenlessTracker exists to cut through the noise in the wearable tech market. There are hundreds of fitness trackers and smartwatches out there — we help you find the right one for your lifestyle and budget. We research, test and review wearable technology including fitness trackers, smartwatches, GPS watches, and specialist health monitors. Every article is written to answer one question: is this device actually worth your money?
 
 
 
@@ -74,25 +34,9 @@ Our reviews are based on thorough research including manufacturer specifications
 
 
 
-\## Independence
-
-
-
 ScreenlessTracker is an independent publication. We are not sponsored by any wearable brand. Where we include affiliate links, we always disclose this clearly — our editorial opinions are never influenced by commercial relationships.
 
 
 
-\## Disclaimer {#disclaimer}
-
-
-
-Information on this site is provided for general informational purposes only. Always consult manufacturer guidelines and medical professionals for health-related decisions. We do our best to keep all information accurate and up to date, but specifications and prices change — always verify before purchasing.
-
-
-
-\## Contact
-
-
-
-Have a question, a review request or a correction? Reach out via the contact details listed in the footer.
+Information on this site is provided for general informational purposes only. Always consult manufacturer guidelines and medical professionals for health-related decisions. We do our best to keep all information accurate and up to date, but specifications and prices change — always verify before purchasing. Have a question, a review request or a correction? Reach out via the contact details listed in the footer.
 
