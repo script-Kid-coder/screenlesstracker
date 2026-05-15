@@ -1,7 +1,6 @@
-```markdown
 ---
 title: "Garmin Cirqa Specs and Release Date: A Deep Dive into Garmin's Screenless Play"
-date: 2024-07-30
+date: 2026-05-15
 draft: false
 categories:
   - News
@@ -92,4 +91,3 @@ A4: No, the Garmin CIRQA does not feature onboard GPS. It's designed to sync wit
 
 **Q5: How does the Garmin CIRQA compare to Whoop?**
 A5: The Garmin CIRQA is positioned as a direct Whoop alternative, offering similar advanced recovery and sleep metrics (like HRV Status and Body Battery) in a screenless form factor. The major difference is that the CIRQA does not require a monthly subscription, while Whoop does. It integrates with the established Garmin Connect ecosystem.
-```
