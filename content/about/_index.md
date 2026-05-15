@@ -4,7 +4,7 @@ title: "About"
 
 description: "About ScreenlessTracker"
 
-layout: "page"
+ShowToc: false
 
 \---
 
