@@ -14,6 +14,8 @@ tags:
 author: "Finn Franklin"
 ---
 
+![Amazfit Helio Ring box](image.jpg)
+
 The Amazfit Helio Ring enters a category ripe for disruption: the screenless wearable. It promises a deep dive into recovery data, all from a discreet ring. But does this £149 piece of tech deliver genuine insight, or is it just another device adding to your nightly charging routine?
 
 Let's cut straight to it. After several weeks on the finger, the Amazfit Helio Ring positions itself not as a broad-spectrum fitness tracker, but as a dedicated recovery tool. Its primary function is to gather granular data, distil it into a Readiness Score, and then serve up actionable insights via the Zepp App. If you're looking for real-time pacing or route guidance, you're in the wrong place entirely.
@@ -26,6 +28,8 @@ The form factor, a ring, is inherently appealing for those who dislike wearing w
 
 ### Hardware: The Ins and Outs of a Discreet Package
 
+![Amazfit Helio Ring worn on finger](image-3.jpg)
+
 The physical device itself feels robust. The outer shell is titanium alloy with a skin-friendly resin inner lining, measuring 8mm wide and just 2.6mm thick. Weight starts at 3.65g for a Size 8 and tops out at 3.82g for a Size 12 — you genuinely won't notice it on your finger. For the £149 price point, you're getting a functional piece of kit that prioritises sensor contact over jewellery aesthetics.
 
 Water resistance is rated at 10 ATM, making it suitable for swimming and showering down to 100 metres. For a device meant to be worn continuously, this is a must-have, not a nice-to-have. I've taken it into the pool multiple times without issue.
@@ -37,6 +41,8 @@ Heart rate monitoring is present and accurate for resting and overnight metrics,
 A key point: there is no GPS on this device. This isn't a surprise given its form factor and stated purpose. The Amazfit Helio Ring tracks your body's internal state, not your run routes. Any activity data with spatial information requires pairing with a smartphone or GPS-enabled device, feeding back into the Zepp App ecosystem.
 
 ### Readiness Score & Data Insights: The Core Offering
+
+![Amazfit Helio Ring Readiness Score on Zepp App](image-2.jpg)
 
 This is where the Amazfit Helio Ring has to earn its keep. The promise of a daily Readiness Score that genuinely helps you train smarter is compelling. The Helio Ring pulls data from your sleep quality (duration, stages, disturbances), resting heart rate, heart rate variability, and skin temperature to generate its daily number.
 
