@@ -3,7 +3,7 @@ title: "Garmin Cirqa – Everything We Know So Far"
 date: 2026-05-15
 draft: false
 categories:
-  - news
+  - guides
 description: "Garmin is launching the CIRQA smart band, a screenless fitness tracker 2027 contender with no subscription, focusing on recovery and advanced metrics."
 tags:
   - Garmin CIRQA smart band
