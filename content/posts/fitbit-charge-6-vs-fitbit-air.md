@@ -1,6 +1,6 @@
 ---
 title: "Fitbit Charge 6 vs Fitbit Air"
-date: date: 2026-05-19
+date: 2026-05-19
 draft: false
 categories:
   - comparisons
