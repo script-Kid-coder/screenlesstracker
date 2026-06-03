@@ -1,18 +1,20 @@
-title: “Amazfit Zepp App 10.4.0 Adds HybridCharge, LifeLoad and HYROX Tools”
+---
+title: "Amazfit Zepp App 10.4.0 Adds HybridCharge, LifeLoad and HYROX Tools"
 date: 2026-06-03
 draft: false
-description: “Zepp app 10.4.0 replaces BioCharge with HybridCharge, adds LifeLoad logs, Training Focus insights and new HYROX workout tools for Amazfit users.”
-author: “Finn Franklin”
+description: "Zepp app 10.4.0 replaces BioCharge with HybridCharge, adds LifeLoad logs, Training Focus insights and new HYROX workout tools for Amazfit users."
+author: "Finn Franklin"
 tags:
-•	Amazfit
-•	Zepp
-•	Fitness Apps
-•	HYROX
-•	Wearables
+  - Amazfit
+  - Zepp
+  - Fitness Apps
+  - HYROX
+  - Wearables
 categories:
-•	News
-slug: “amazfit-zepp-app-10-4-0-hybridcharge-update”
+  - News
+slug: "amazfit-zepp-app-10-4-0-hybridcharge-lifeload-hyrox-tools"
 ---
+
 If you opened the Zepp app this week and thought, “Hang on, wasn’t this called BioCharge yesterday?”, you are not imagining things. Zepp Health has started rolling out version 10.4.0, and the headline change is that BioCharge is being reworked and rebranded as HybridCharge.[chinesesmartwatches]
 At first glance, this looks like standard fitness app housekeeping: new label, same score, move along. But this one is a bit more interesting than that, because Zepp is no longer relying only on watch data like sleep, heart rate and workouts to judge how ready you are for training.[chinesesmartwatches]
 What HybridCharge actually does
